@@ -1,0 +1,115 @@
+* { /*tudo*/
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden; /*Corpo do Documeto*/
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Monserrat', sans-serif;
+}
+
+.cabeça {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 28px;
+}
+
+.title {
+    position: relative;
+    top: -30px;
+    left: 55px;
+    font-size: 70px;
+}
+
+.apr {
+    position: relative; /*Apresentação*/
+    top: -70px;
+    left: 100px;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    position: relative;
+    top: -30px;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 80px 80px 80px 80px;
+}
+
+.l1 {
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+}
+
+.l2 {
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+}
+
+.l3 {
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+}
+
+.l4 {
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+}
+
+img {
+    width: 320px;
+    border-radius: 25px;
+}
+
+.html {
+    position: relative; /*html, css, js são h2*/
+    top: -75px;
+    left: 50px;
+}
+
+.css {
+    position: relative;
+    top: -385px;
+    left: 450px;
+}
+
+.js {
+    position: relative;
+    top: -695px;
+    left: 850px;
+}
+
+.ttr1 {
+    position: relative; /*ttr1 ao ttr3 titles.*/
+    top: -80px;
+    left: 90px;
+}
+
+.ttr2 {
+    position: relative;
+    top: -392px;
+    left: 500px;
+}
+
+.ttr3 {
+    position: relative;
+    top: -702px;
+    left: 875px;
+}
